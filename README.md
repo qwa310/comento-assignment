@@ -1,5 +1,4 @@
-# comento-assignment
-코멘토 과제 업로드
+# 1주차 코멘토 과제
 ### ✅ 1-1 JDK 1.8 설치
 ![1-1](https://user-images.githubusercontent.com/46439700/128526676-a366e14c-7b1e-424a-bc41-fa96da82c1dd.png)
 ### ✅ 1-2 Eclipse, Spring 설치
