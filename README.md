@@ -9,4 +9,4 @@
 ### ✅ 1-5 MariaDB, MySQL Workbench 설치 및 샘플 DB 구축
 ![1-5](https://user-images.githubusercontent.com/46439700/128527264-1c7d01d2-fd0a-4969-b195-f667cff58313.png)
 ### ❎ 1-6. 스프링, Mariadb, MyBatis 연동, 데이터 조회
-코드 깃허브에 업로드
+코드 깃허브에 업로드, MovieVO.java 작성 중
