@@ -1,3 +1,7 @@
+# 2주차 코멘토 과제
+### ✅ 2-1 API 가이드 문서 작성
+### ✅ 2-2 REST API 공부
+
 # 1주차 코멘토 과제
 ### ✅ 1-1 JDK 1.8 설치
 ![1-1](https://user-images.githubusercontent.com/46439700/128526676-a366e14c-7b1e-424a-bc41-fa96da82c1dd.png)
