@@ -1,6 +1,14 @@
-# 2주차 코멘토 과제
-### ✅ 2-1 API 가이드 문서 작성
-### ✅ 2-2 REST API 공부
+## 3주차 코멘토 과제
+### ✅ 3-1 스프링부트 개발 환경설정
+![3-1](https://user-images.githubusercontent.com/46439700/130258912-97c66689-eaeb-4b3f-9607-c0609d2dd485.png)
+### ✅ 3-2 API를 위한 DB, Table 생성
+![3-2](https://user-images.githubusercontent.com/46439700/130259023-4bbdf962-de31-402f-82d1-a0f0edd0c413.png)
+### ✅ 3-3 스프링부트, Mybatis, mariadb 연동
+![3-3](https://user-images.githubusercontent.com/46439700/130258937-5528886c-90a4-4105-ab00-e91550d59609.png)
+
+##### 2주차 코멘토 과제
+##### ✅ 2-1 API 가이드 문서 작성
+##### ✅ 2-2 REST API 공부
 
 ##### 1주차 코멘토 과제
 ##### ✅ 1-1 JDK 1.8 설치
