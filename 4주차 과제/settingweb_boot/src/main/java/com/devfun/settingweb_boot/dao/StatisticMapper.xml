@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+    
+<mapper namespace="com.devfun.settingweb_boot.dao.StatisticMapper">
+    
+    <select id="selectMonthLogin" parameterType="string" resultType="hashMap">
+        SELECT count(*) as totCnt
+		FROM statistc.requestinfo ri
+		WHERE substring(ri.createDate, 3, 2) = #{month};
+    </select>
+    
+    <select id="selectDateLogin" parameterType="string" resultType="hashMap">
+        SELECT count(*) as totCnt
+		FROM statistc.requestinfo ri
+		WHERE substring(ri.createDate, 5, 2) = #{date};
+    </select>
+    
+    
+    <select id="selectDailyLogin" resultType="hashMap">
+        SELECT avg(dailytable2.cntDailyLogins) as totCnt
+        from (SELECT count(*) as cntDailyLogins
+	  		  FROM (SELECT substring(createDate, 1,6) as daily
+					FROM statistc.requestinfo) dailytable1
+	  		  GROUP BY daily) dailytable2;
+    </select> 
+
+
+    <!-- 부서별 월별 접속자수 -->
+ 	<select id="selectMonthOrgLogin" parameterType="string" resultType="hashMap">
+        SELECT hr_organ as organ, count(*) as totCnt
+        FROM (SELECT HR_ORGAN, createDate
+	  		  FROM user, statistc.requestinfo ri
+	 		  WHERE user.userID = ri.userID) dailytable1
+        WHERE substring(dailytable1.createDate, 3, 2) = #{month}
+        group by hr_organ;
+    </select> 
+    
+</mapper>
