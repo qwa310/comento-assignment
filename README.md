@@ -1,5 +1,16 @@
 ## 4주차 코멘토 과제
-### - 3주차 과제 추가 수정
+### 3주차 과제에서 추가 수정
+#### DB 데이터 추가
+![스크린샷(1920)](https://user-images.githubusercontent.com/46439700/131160750-e71cb65f-3bfa-4602-8906-0a4aaa35c38b.png)
+#### ✅ 월별 접속자 수 
+![스크린샷(1915)](https://user-images.githubusercontent.com/46439700/131160224-92e54c95-f3dc-4b77-a314-6c1283dcf9c8.png)
+#### ✅ 일자별 접속자 수
+![스크린샷(1917)](https://user-images.githubusercontent.com/46439700/131160231-1139fb61-c3a1-42c7-8b12-1319adf6cfff.png)
+#### ✅ 하루 평균 접속자 수
+![스크린샷(1918)](https://user-images.githubusercontent.com/46439700/131160233-637dce22-0a8c-43e6-8dbe-ba9cb900284d.png)
+#### ✅ 부서별 월별 로그인 수
+![image](https://user-images.githubusercontent.com/46439700/131160618-c724a749-f72d-4d7d-b014-b46e51edb97e.png)
+
 
 
 ##### 3주차 코멘토 과제
