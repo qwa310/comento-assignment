@@ -20,7 +20,7 @@ import com.devfun.service.MovieService;
  */
 @Controller
 public class HomeController {
-    
+    //로그 출력
     private static final Logger logger = LoggerFactory.getLogger(HomeController.class);
     
     @Inject

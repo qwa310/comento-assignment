@@ -1,12 +1,30 @@
+package com.devfun.vo;
 import java.util.List;
 import javax.inject.Inject;
 import org.apache.ibatis.session.SqlSession;
 import org.springframework.stereotype.Repository;
 
 public class MovieVO {
-	public String MOVIE_NAME, DIRECTOR, TYPES;
+	private String movie_name;
+	private String director;
+	private String types;
 	
-	get selectMovie() {
-		return `${this.name} ${this.surname}`;
+	public String getMovie_name() {
+		return movie_name;
+	}
+	public void setMovie_name(String movie_name){
+		this.movie_name = movie_name;
+	}
+	public String getDirector() {
+		return director;
+	}
+	public void setDirector(String director) {
+		this.director = director;
+	}
+	public String getTypes() {
+		return types;
+	}
+	public void setTypes(String types) {
+		this.types = types;
 	}
 }
